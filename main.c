@@ -32,7 +32,7 @@ int main(){
             q->prox = p;
         }
 
-        printf("Deseja inserir outro no a direita? 0-nao 1-sim");
+        printf("Deseja inserir outro no a direita? 0-nao 1-sim:");
         scanf("%d", &sn);
 
     }
@@ -41,7 +41,7 @@ int main(){
     printf("\n\n");
     p = lista;
     while(p != NULL){
-        printf("%d", p->dado);
+        printf("%d  ", p->dado);
         p = p->prox;
     }
 
