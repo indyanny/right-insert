@@ -37,7 +37,7 @@ int main(){
     }
     while(sn ==1);
 
-    //insercao a direita
+    //imprime lista
     printf("\n\n");
     p = lista;
     while(p != NULL){
