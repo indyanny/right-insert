@@ -21,6 +21,7 @@ int main(){
             lista = p;
         }
         else{
+            //insercao a direita
             p = malloc(sizeof(struct no));
             scanf("%d", &p->dado);
             p->prox = NULL;
