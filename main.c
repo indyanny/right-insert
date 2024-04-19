@@ -31,12 +31,13 @@ int main(){
             q->prox = p;
         }
 
-        printf("Deseja inserir outro no a direita? 0-nao 1-sim: ");
+        printf("Deseja inserir outro dado a direita? 0-nao 1-sim: ");
         scanf("%d", &sn);
 
     }
     while(sn ==1);
 
+    //insercao a direita
     printf("\n\n");
     p = lista;
     while(p != NULL){
