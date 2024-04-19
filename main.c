@@ -31,7 +31,7 @@ int main(){
             q->prox = p;
         }
 
-        printf("Deseja inserir outro no a direita? 0-nao 1-sim:");
+        printf("Deseja inserir outro no a direita? 0-nao 1-sim: ");
         scanf("%d", &sn);
 
     }
