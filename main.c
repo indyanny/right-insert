@@ -15,14 +15,13 @@ int main(){
     do{
         if(lista == NULL){
             p = malloc(sizeof(struct no));
-            printf("Digite o dado a inserir na lista:");
+            printf("Digite o dado a ser inserido na lista:");
             scanf("%d", &p->dado);
             p->prox = lista;
             lista = p;
         }
         else{
             p = malloc(sizeof(struct no));
-            printf("Digite o dado a inserir na lista:");
             scanf("%d", &p->dado);
             p->prox = NULL;
             q = lista;
